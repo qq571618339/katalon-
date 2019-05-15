@@ -112,7 +112,7 @@ class TokenUtils {
 		if(request instanceof RequestObject){
 			List<TestObjectProperty> headerProperties = request.getHttpHeaderProperties()
 			println headerProperties
-			boolean fieldExist = false
+			//			boolean fieldExist = false
 			for(int i = 0; i < headerProperties.size(); i++){
 				TestObjectProperty headerField = headerProperties.get(i)
 				if(headerField.getName().equals('Content-type')){
@@ -122,7 +122,20 @@ class TokenUtils {
 				}
 			}
 		}
-	
+
+	}
+
+	@Keyword
+	def getAccessToken(TestObject request){
+		if(request instanceof RequestObject){
+			List<TestObjectProperty> headerProperties = request.getHttpHeaderProperties()
+			Iterator it = headerProperties.iterator()
+			while ( it.hasNext()){
+				//				def jsonSlurper = new JsonSlurper()
+				//				def jsonResponse = jsonSlurper.parseText()
+				println headerProperties.iterator().next().getValue()
+			}
+		}
 	}
 
 }

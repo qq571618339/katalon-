@@ -22,8 +22,11 @@ def str = CustomKeywords.'org.xforceplus.katalon.TokenUtils.getHttpHeaderToken'(
 	[('userName') : userName,
 		('tenantCode') : tenantCode]))
 
-println str
+//def str1 = CustomKeywords.'org.xforceplus.katalon.TokenUtils.getAccessToken'(findTestObject('Object Repository/zeus/getAccountByNameAndUserNameUsingPOST',
+//	[('userName') : userName,
+//		('tenantCode') : tenantCode]))
 
+println "${str}"
 
 
 
