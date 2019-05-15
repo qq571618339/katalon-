@@ -15,5 +15,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/getAccountInfo</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>938db112-b331-4f87-9fcc-708463e2a2a5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e00a0406-b639-430e-a704-b075389b32ef</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>afa4b244-0a4b-4cb8-9cae-7e079b0042d1</testCaseGuid>
+   <variable>
+      <defaultValue>'xforceplus'</defaultValue>
+      <description></description>
+      <id>938db112-b331-4f87-9fcc-708463e2a2a5</id>
+      <masked>false</masked>
+      <name>tenantCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'剑客'</defaultValue>
+      <description></description>
+      <id>e00a0406-b639-430e-a704-b075389b32ef</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
 </TestCaseEntity>

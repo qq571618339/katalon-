@@ -6,11 +6,13 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>8478a1c3-6bcf-4e3c-81a4-e3a84b5db7b9</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>jdbc:mysql://rm-bp1505575w78f52d3o.mysql.rds.aliyuncs.com:3306</dataSourceUrl>
    <driver>DBData</driver>
    <isInternalPath>false</isInternalPath>
+   <password>S01waDlROFUwYlZ5Q0I2UDZsUlpvaGNieTJZMUtf</password>
    <query></query>
-   <secureUserAccount>false</secureUserAccount>
+   <secureUserAccount>true</secureUserAccount>
    <sheetName></sheetName>
+   <user>zeustestdbuser</user>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

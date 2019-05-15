@@ -12,4 +12,18 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import groovy.json.JsonSlurper
+
+request = WS.sendRequest(findTestObject('Object Repository/zeus/getAccountByNameAndUserNameUsingPOST',
+	[('userName') : userName,
+		('tenantCode') : tenantCode]))
+
+def str = CustomKeywords.'org.xforceplus.katalon.TokenUtils.getHttpHeaderToken'(findTestObject('Object Repository/zeus/getAccountByNameAndUserNameUsingPOST',
+	[('userName') : userName,
+		('tenantCode') : tenantCode]))
+
+println str
+
+
+
 
